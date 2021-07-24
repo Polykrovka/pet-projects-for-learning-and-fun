@@ -1,0 +1,14 @@
+
+.battleField {
+    width: 45vw;
+    margin: 0 auto;
+    height: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    .oneField {
+        // background: black;
+        width: 12.5%;
+        height: 12.5%;
+        z-index: 3;
+    }
+}
